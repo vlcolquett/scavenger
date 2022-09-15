@@ -5,7 +5,7 @@ function startRedirect(){
     console.log(q1)
     if (q1 == "pinching tails and sucking heads"){
         //document.getElementById("1").style.display = "none";
-        location.replace("https://turing.cs.olemiss.edu/~vlcolque/scavenger/clue1.html");
+        location.replace("https://vlcolquett.github.io/scavenger/clue1");
         //welcome and picture of magnolia tree
     }else {
         alert("hmmm let's try again")
