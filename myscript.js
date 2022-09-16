@@ -42,7 +42,7 @@ function dragAndDrop(){
     console.log(div1)
     if(div11 == div1 && div12 == div3 && div13 == div8 && div14 == div5 && div15 ==
         div7 && div16 == div10 && div17 == div9 && div18 == div4 && div19 == div6 && div20 == div2){
-            location.replace("https://turing.cs.olemiss.edu/~vlcolque/scavenger/6045.html")
+            location.replace("https://vlcolquett.github.io/scavenger/clue7.html")
     }else{
         alert("seems like you haven't figured it out yet")
     }
@@ -61,7 +61,7 @@ function releaseYears(){
     b10 = document.getElementById("b10").value
 
     if(b1 == "95" && b2 == "84" && b3 == "75" && b4 == "08" && b5 == "94" && b6 == "03" && b7 == "12" && b8 == "80" && b9 == "08" && b10 == "86"){
-        location.replace("file:///C:/Users/vlcol/OneDrive/Desktop/scavenger/clue8.html")
+        location.replace("https://vlcolquett.github.io/scavenger/clue8.html")
     }else{
         alert("whomp whomp, try againnnn")
     }
