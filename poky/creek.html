@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Poky Scavenger</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="icon" type="image/png"  href="../media/poky_flag.png">
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<section>
+                                <h2>GO - R</h2>
+                                <span class="image main"><img src="../media/creek.png" alt="" /></span>
+                                <form method="post" action="#">
+                                    <div class="row gtr-uniform">
+                                        <div class="col-6 col-12-xsmall">
+                                            <input type="text" name="color" id="color" value="" autofocus/>
+                                        </div>
+                                        <div class="col-12">
+                                                <button class="button primary" id="btn">Onward!</button>                                           
+                                        </div>
+                                    </div>
+                                </form>
+                                <span class="image main"><img src="../media/map.png" alt="" /></span>
+							</section>
+						</div>
+					</div>
+						
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				document.getElementById("btn").addEventListener("click", function(event){
+  					event.preventDefault()
+					var col = document.getElementById("color").value.trim();
+					console.log(col);
+					if (col.toLowerCase() == "kinport"){
+                        window.location.href = "columns.html";
+                    }else{
+                        document.getElementById("color").value = "";
+                        document.getElementById("btn").innerHTML = "try again!!!"
+                    }
+				});
+			</script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
